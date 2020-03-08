@@ -1,0 +1,2 @@
+WeChatMac.dmg https://dldir1.qq.com/weixin/mac/WeChatMac.dmg
+clipper.apk https://github.com/majido/clipper/releases/download/v1.2.1/clipper.apk

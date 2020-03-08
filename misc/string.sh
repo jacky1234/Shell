@@ -22,6 +22,11 @@ echo `ls`
 
 a="123"
 
+# 判断字符串为空的方法有三种：
+# if [ "$str" =  "" ]
+# if [ x"$str" = x ]
+# if [ -z "$str" ] （-n 为非空）
+
 if [ -n "$a" ]
 then
    echo "-n $a : 字符串长度不为 0"

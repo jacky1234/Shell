@@ -1,0 +1,10 @@
+# init gitlab adderss
+
+https://gitlab.xiaoheiban.cn/module_component/Statusbar.git
+https://gitlab.xiaoheiban.cn/module_component/RefreshLayout.git
+https://gitlab.xiaoheiban.cn/module_component/Commonlib.git
+https://gitlab.xiaoheiban.cn/module_component/Skinlib.git
+https://gitlab.xiaoheiban.cn/module_component/Permissionlib.git
+https://gitlab.xiaoheiban.cn/module_component/ImageLoaderlib.git
+https://gitlab.xiaoheiban.cn/module_component/BasicRes.git
+https://gitlab.xiaoheiban.cn/module_component/Fragmentation.git
