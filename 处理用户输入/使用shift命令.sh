@@ -1,4 +1,4 @@
-#!/bin/bash
+	#!/bin/bash
 # shift n 移动变量
 
 count=1

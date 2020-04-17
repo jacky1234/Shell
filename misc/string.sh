@@ -1,7 +1,11 @@
 #!/bin/bash
+
+# https://blog.csdn.net/dongwuming/article/details/50605911
 your_name='runoob'
 str="Hello, I know you are \"$your_name!\" \n"
 echo -e $str
+
+if [ $your_name ] 
 
 # 拼接字符串
 # 使用双引号拼接
@@ -12,7 +16,10 @@ echo $greeting  $greeting_1
 echo "$your_name 字符串长度: ${#your_name}"
 
 # 提取子字符串
-echo "$your_name, 截取1，4： ${your_name:1:4}"
+echo "$str, 截取1，4： ${str:1:4}"
+
+echo "${str#"Hello"}"
+echo "${str##"He"}"
 
 # 查找子字符串； 找字符 i 或 o 的位置
 echo `expr index "$your_name" io`

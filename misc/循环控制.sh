@@ -11,3 +11,16 @@ do
     printf "i=%d; sum=%d\n" "$i" "$sum"
 done
 echo "sum=${sum}"
+
+
+TARGET_PROJECTS=(
+	"Jack"
+	"Hello"
+	"Alice"
+)
+
+# for
+for p in ${TARGET_PROJECTS[@]}
+do
+    echo "${p}"
+done

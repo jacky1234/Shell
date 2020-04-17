@@ -1,5 +1,10 @@
 #!/bin/bash
 
+export TARGET_PROJECTS=(
+replugin-host-gradle
+replugin-host-library
+replugin-plugin-gradle
+replugin-plugin-library
+)
 
-value="hello"
-printf "value=%s %s\n" "${value}" "123"
+for p in ${TARGET_PROJECTS[@]}; do echo ${p}; done
