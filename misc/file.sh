@@ -55,7 +55,14 @@ else
 fi
 if [ -e $file ]
 then
-   echo "文件存在"
+   echo "文件不存在"
 else
+   echo "文件存在"
+fi
+
+if [ ! -e $file ]
+then
    echo "文件不存在"
 fi
+
+# 文件遍历

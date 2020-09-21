@@ -6,6 +6,7 @@ b=20
 
 echo "a=$a, b=$b"
 
+# 中间是有空格的
 val=`expr $a + $b`
 echo "a + b : $val"
 
